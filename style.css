@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-left: 75px;
-    color: red;
+    color: rgb(171, 41, 41);
 }
 
 a {
@@ -23,9 +23,9 @@ a {
 }
 .pb {
     padding-left: 30px;
-    font-size: 15px;
-    background: url(capapeakyblinders.jpg);
-    height: 600px;
+            background: url('capapeakyblinders.jpg') 
+            center center no-repeat fixed; 
+     height: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -36,21 +36,29 @@ a {
 
 .ser {
     display: flex;
-  
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
 }
 .fil {
     display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
 }
 .alta {
     display: flex;
-
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
 }
-.alta img {
+.ser img {
+    
     max-width:400px;
-        max-height:400px;
-        width: auto;
-        height: auto;
-        margin:  10px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    margin:  10px; 
 }
 .fil img {
     
@@ -59,16 +67,45 @@ a {
         width: auto;
         height: auto;
         margin:  10px;
+}
+.alta img {
+        max-width:400px;
+        max-height:400px;
+        width: auto;
+        height: auto;
+        margin:  10px;
+        background-size: cover;
+}
+.ser img:hover {
+    margin:  5px;  
+}
+.fil img:hover {
+    margin:  5px;  
+}
+.alta img:hover {
+        margin:  5px;  
+}
+body::-webkit-scrollbar {
+    width: 10px;               /* tamanho x da scroll */
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        /* cor de fundo da scroll */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(25, 25, 26);  /* cor da scrool*/
+    border-radius: 5px;     /* tamanho da borda da scroll */
+}
+.ref {
+    text-align: center;
+    color: brown;
+}
+.a1{
+    color: brown;
+}
 
-}
-.ser img {
-    
-    max-width:400px;
-    max-height:400px;
-    width: auto;
-    height: auto;
-    margin:  10px;
-}
+ 
 
 
 
