@@ -1,0 +1,77 @@
+body { 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 75px;
+    color: red;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.botoespb {
+    padding-top: 75px;
+    align-items: center;
+}
+.pb {
+    padding-left: 30px;
+    font-size: 15px;
+    background: url(capapeakyblinders.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.textopb {
+   text-align: justify;
+   width: 350px;
+}
+
+.ser {
+    display: flex;
+  
+}
+.fil {
+    display: flex;
+}
+.alta {
+    display: flex;
+
+}
+.alta img {
+    max-width:400px;
+        max-height:400px;
+        width: auto;
+        height: auto;
+        margin:  10px;
+}
+.fil img {
+    
+        max-width:400px;
+        max-height:400px;
+        width: auto;
+        height: auto;
+        margin:  10px;
+
+}
+.ser img {
+    
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    margin:  10px;
+}
+
+
+
+
+
+   
