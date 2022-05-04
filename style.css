@@ -23,15 +23,27 @@ a {
 }
 .pb {
     padding-left: 30px;
-            background: url('capapeakyblinders.jpg') 
+            background: url('peakyblinderscapa.jpg') 
             center center no-repeat fixed; 
      height: 600px;
     display: flex;
     flex-direction: column;
 }
 .textopb {
+    color: rgb(255, 255, 255);
    text-align: justify;
    width: 350px;
+}
+.botaopb {
+    border: 0px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    text-align: center;
+}
+.botaopb:hover {
+    color: black;
+    background-color: white;
 }
 
 .ser {
@@ -77,13 +89,16 @@ a {
         background-size: cover;
 }
 .ser img:hover {
-    margin:  5px;  
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
 }
 .fil img:hover {
-    margin:  5px;  
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
 }
 .alta img:hover {
-        margin:  5px;  
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
 }
 body::-webkit-scrollbar {
     width: 10px;               /* tamanho x da scroll */
@@ -102,7 +117,7 @@ body::-webkit-scrollbar-thumb {
     color: brown;
 }
 .a1{
-    color: brown;
+    color: rgb(255, 255, 255);
 }
 
  
